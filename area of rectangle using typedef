@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    typedef float f;
+    f length,breadth;
+    scanf("%f%f",&length,&breadth);
+    f area=length*breadth;
+    printf("Area of a rectangle: %.2f",area);
+    return 0;
+}
